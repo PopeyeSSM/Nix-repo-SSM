@@ -14,6 +14,9 @@
   libinput ntfs3g dhcpcd mesa zram-generator gzip outils
   konsave isoimagewriter  
 
+  # for working with Github
+  git-credential-manager
+
   # for KDE PLasma
   libsForQt5.qtstyleplugin-kvantum #libsForQt5.qt5ct
   kde-rounded-corners libsForQt5.bismuth
