@@ -9,23 +9,25 @@
   environment.systemPackages = with pkgs; [
 
   # Systemtools 
-  wget gnugrep gnumake git util-linux wireguard-tools
+  wget gnugrep gnumake util-linux wireguard-tools
   cmake efibootmgr gparted bluez bluez-tools httpie
   libinput ntfs3g dhcpcd mesa zram-generator gzip outils
   konsave isoimagewriter  
 
   # for working with Github
-  git-credential-manager
+  git git-credential-manager gitFull git-lfs gh
 
   # for KDE PLasma
   libsForQt5.qtstyleplugin-kvantum #libsForQt5.qt5ct
   kde-rounded-corners libsForQt5.bismuth
   
-        
-  # ADDICIONAL SOFTWARE
-
   # for Konsole
   libsForQt5.yakuake neofetch htop ranger cmatrix inxi duf micro
+
+  # for Browsers, and Internet
+  firefox ungoogled-chromium mullvad-browser  
+  libsForQt5.plasma-browser-integration
+  thunderbird libsForQt5.ktorrent
 
   # for Browsers
   firefox ungoogled-chromium mullvad-browser  
@@ -35,8 +37,7 @@
   vokoscreen-ng clipgrab vlc clementine
       
   # for diversos
-  thunderbird libsForQt5.pix libsForQt5.ktorrent
-  libreoffice-fresh kate meld 
+  libsForQt5.pix ibreoffice-fresh kate meld 
 
   # needed to run kOrganizer
   libsForQt5.akonadi libsForQt5.korganizer libsForQt5.akonadi-mime
