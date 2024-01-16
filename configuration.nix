@@ -11,13 +11,13 @@
       ./modules/hardware2.nix
       ./modules/config2.nix
       ./modules/intel.nix
-      # ./modules/nvidia.nix
       ./modules/packages.nix
+      # ./modules/nvidia.nix
       # ./modules/hyprland.nix
      
     ];
 
-  nix.settings.experimental-features = [ "nix-command" "flakes"];
+  # nix.settings.experimental-features = [ "nix-command" "flakes"];
 
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
