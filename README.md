@@ -3,7 +3,7 @@
 following files are to be submitted to a parent-folder called "modules"
 file:///etc/nixos/modules/config-vbox.nix
 file:///etc/nixos/modules/config2.nix
-file:///etc/nixos/modules/gnomepackages.nix
+file:///etc/nixos/modules/github.nix
 file:///etc/nixos/modules/hardware2.nix
 file:///etc/nixos/modules/hyprland.nix
 file:///etc/nixos/modules/intel.nix
